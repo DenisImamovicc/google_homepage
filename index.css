@@ -25,6 +25,35 @@ ul {
  img{
     display: block;
     margin-left: auto;
-    margin-right: auto; }
+    margin-right: auto; 
+    margin-top: 150px;
+
+  }
+    
+
+input {
+  margin: auto;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+  width: 484px;
+  height: 46px;
+  font-size: 16px;
+  display: block;
+  border-radius: 30px;
+
+}
+
+input {
   
- 
+
+}
+  
+button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+   
+}
