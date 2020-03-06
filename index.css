@@ -3,6 +3,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
+
   }
   
   li {
@@ -42,9 +43,16 @@ input {
   font-size: 16px;
   display: block;
   border-radius: 30px;
+  border: 1px solid grey;
+  padding-left: 8px;
 }
 
+input:focus {
+  outline: none;
+  box-shadow: 0px 0px 2px #0066ff;
 
+  
+}
   
 button {
   background-color: #ccc;
@@ -57,11 +65,11 @@ nav {
 }
 
 footer {
-  position: absolute;
-  bottom: 0;
-  width: 99%;
-  background-color: gray;
-  
-
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgb(199, 193, 193);
+  width: 100%;
 
 }
+
